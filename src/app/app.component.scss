@@ -1,0 +1,31 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #21242C;
+}
+
+.top-section {
+
+    padding: 20px 20px;
+
+    h1 {
+        font-size: 40px;
+        color: #7CD0B0;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.content-section {
+    flex-grow: 1;
+    background-color: darkgray;
+}
+
+.bottom-section {
+    color: white;
+    text-align: center;
+}

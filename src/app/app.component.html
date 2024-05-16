@@ -1,17 +1,45 @@
 <div class="app-wrapper">
 
+
   <div class="top-section">
-    <h1>gander</h1>
-    <h2>19:00</h2>
-    <h2>Monday, 12th October 2020</h2>
+    <div class="title">
+      <h1>gander</h1>
+    </div>
+
+    <div class="time">
+      <h2>19:00</h2>
+    </div>
+
+    <div class="weekanddate">
+    
+      <div class="date">
+        <h3>16th Oct</h3>
+      </div>
+
+      <div class="week">
+        <h3>Week 42</h3>
+      </div>
+    </div>
   </div>
 
-  <div class="content-section">
-    <router-outlet></router-outlet>
+  <div class="content-container">
+    <div class="content-section">
+      <h2>Content</h2>
+      <router-outlet></router-outlet>
+    </div>
+
+    <div class="bookmark-section">
+      <h2>Links</h2>
+        <a href="https://www.google.com">Google</a> 
+        <a href="https://www.bing.com">Bing</a>
+      <div class="bookmark-group">
+      
+      </div>
+    </div>
   </div>
 
   <div class="bottom-section">
-    colinmakerofthings/gander
+    <a href="https://github.com/colinmakerofthings/gander">&#64;colinmakerofthings/gander</a>
   </div>
 
 </div>
